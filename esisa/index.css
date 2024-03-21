@@ -1,0 +1,33 @@
+img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 40%;
+    box-shadow :10px 10px 10px -3px;
+}
+
+
+@media screen and (min-width:400px) and (max-width:1000px){
+    .titre1 h1{
+        font-size: 25px;
+        
+    }
+
+    .titre2 h1{
+       display: none;
+    }
+
+}
+
+@media screen and (maxmin-width:400px){
+    
+
+    .titre1 h1{
+        font-size: 10px;
+        
+    }
+
+    .titre2 h1{
+       display: none;
+    }
+
+}
